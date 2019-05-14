@@ -1,3 +1,8 @@
+/**
+ * this Header file represents a range of objects. 
+ * @author Israel Buskila and Moran Oshia
+ * @since 05-2019
+ */
 #pragma once
 
 
@@ -16,7 +21,7 @@ namespace itertools{
             T endNum;
 
         public:
-
+//iterator for the range
             range(const T begin, const T end)
             {
 				beginNum=begin;
@@ -92,7 +97,7 @@ namespace itertools{
 
 
             
-
+//first element
             iterator begin() const{
 
 		        return iterator(beginNum);
@@ -100,7 +105,7 @@ namespace itertools{
 	        }
 
 
-
+//last element
 	        iterator end() const{
 
 		        return iterator(endNum);
