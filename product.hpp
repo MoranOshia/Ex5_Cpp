@@ -109,13 +109,13 @@ namespace itertools{
             }; 
 
 
-            auto begin() {
+            auto begin()const {
 
 		        return x.begin();
 
 	        }
 
-	         auto end() {
+	         auto end()const {
 
 		        return x.end();
 
