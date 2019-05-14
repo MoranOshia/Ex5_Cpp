@@ -1,3 +1,8 @@
+/**
+ * this Header file Represents a parallel connection of two containers. 
+ * @author Israel Buskila and Moran Oshia
+ * @since 05-2019
+ */
 #pragma once
 #include <iostream>
 using namespace std;
@@ -20,13 +25,13 @@ namespace itertools{
 
         public:
 
-
+//constructor
             zip(T x1 ,U y2):
             
 				x(x1),
 				y(y2) {}
 			zip(){}
-
+//iterator for zip
             class iterator{
 
         
@@ -108,13 +113,13 @@ namespace itertools{
 
             }; 
 
-
+//first element
             auto begin() const {
 
 		        return x.begin();
 
 	        }
-
+//last element
 	         auto end() const{
 
 		        return x.end();
