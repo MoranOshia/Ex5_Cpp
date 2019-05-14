@@ -115,14 +115,14 @@ namespace itertools{
             }; 
 
 
-            auto begin() {
+            auto begin() const{
 
 		        return x.begin();
 	        }
 
-	        auto end() {
+	        auto end() const{
 
-		        //return chain::iterator(x.begin(),x.end(),y.begin(),y.end());
+		        
 				return x.end();
 
             }
