@@ -91,7 +91,7 @@ namespace itertools{
 
             
 
-            auto begin() {
+            auto begin() const{
 
 		        return x.begin();
 
@@ -99,7 +99,7 @@ namespace itertools{
 
 
 
-	        auto end() {
+	        auto end() const{
 
 		        return x.end();
 
