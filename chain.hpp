@@ -1,4 +1,9 @@
- #pragma once
+/**
+ * Header file Represents a concatenation of two container 
+ * @author Israel Buskila and Moran Oshia
+ * @since 05-2019
+ */ 
+#pragma once
 
 #include <iostream>
 
@@ -20,13 +25,13 @@ namespace itertools{
 
         public:
 
-
+//constructor
             chain(T x1 ,U y2):
             
 				x(x1),
 				y(y2) {}
 
-
+//iterator
             class iterator{
 
         
@@ -114,12 +119,12 @@ namespace itertools{
  */
             }; 
 
-
+//first element
             auto begin() const{
 
 		        return x.begin();
 	        }
-
+//last element
 	        auto end() const{
 
 		        
