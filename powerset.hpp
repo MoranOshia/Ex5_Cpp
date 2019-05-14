@@ -1,3 +1,8 @@
+/**
+ * Header file Represents all of the subgroups of the container. 
+ * @author Israel Buskila and Moran Oshia
+ * @since 05-2019
+ */
 #pragma once
 #include <cmath>
 #include <vector>
@@ -18,14 +23,14 @@ namespace itertools{
             
 
         public:
-
+//constructor
            powerset(T x1):x(x1){}
 			   
 			  
 		
 		
 		
-
+//iterator
            class iterator{
 
 
@@ -90,7 +95,7 @@ namespace itertools{
 
 
             
-
+//first element
             auto begin() const{
 
 		        return x.begin();
@@ -98,7 +103,7 @@ namespace itertools{
 	        }
 
 
-
+//last element
 	        auto end() const{
 
 		        return x.end();
